@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios,   "7.0"
     s.ios.deployment_target = "7.0"
     s.source       = {:git => 'https://github.com/sliu1126/LSLayout.git', :tag => s.version}
-    s.source_files = 'LSLayout/*.{h,m}'
+    s.source_files = 'LSLayout/LSLayout/**/*.{h,m}'
     s.requires_arc = true
 end
 
